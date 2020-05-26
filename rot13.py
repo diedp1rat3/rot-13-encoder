@@ -23,15 +23,15 @@ def dencrypt(s: str, n: int = 13):
 
 def main():
     os.system("clear")
-    s0 = input("Iveskite zinute: ")
+    s0 = input("Enter message: ")
 
     s1 = dencrypt(s0, 13)
-    print("Uzsifruota:", s1)
+    print("Encrypted:", s1)
 
 
 
     s2 = dencrypt(s1, 13)
-    print("Desifruota: ", s2)
+    print("Decrypted: ", s2)
 
 
 if __name__ == "__main__":
